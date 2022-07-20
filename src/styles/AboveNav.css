@@ -1,0 +1,22 @@
+.above-nav-contain{
+    width: 100%;
+    height: 60px;
+    padding-left: 150px;
+    background-color: #f2dfe9;
+}
+.above-div{
+    border: 1px solid #f2dfe9;
+    width: 1000px;
+    padding-left: 160px;
+}
+.bi-btn{
+    background-color: #f2dfe9;
+    border: none;
+}
+.join-a{
+    text-decoration: none;
+    color: black;
+}
+.font-p{
+    font-size: 14px;
+}

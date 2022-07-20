@@ -1,0 +1,75 @@
+.sections-contain{
+    width: 100%;
+    height: 44px;
+    padding-left: 80px;
+    background-color: black;
+}
+.sections-nav{
+    width: 1264px;
+    height: 100%;
+    display: flex;
+}
+.atag{
+    color: white;
+    text-decoration: none;
+}
+.new-div{
+    width: 73px;
+    text-align: center;
+    padding-top: 10px;
+}
+.brands-div{
+    width: 89px;
+    text-align: center;
+    padding-top: 10px;
+}
+.makeup-div{
+    width: 95px;
+    text-align: center;
+    padding-top: 10px;
+}
+.skincare-div{
+    width: 98px;
+    text-align: center;
+    padding-top: 10px;
+}
+.hair-div{
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+.frag-div{
+    width: 108px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tools-div{
+    width: 145px;
+    text-align: center;
+    padding-top: 10px;
+}
+.bath-div{
+    width: 123px;
+    text-align: center;
+    padding-top: 10px;
+}
+.min-div{
+    width: 101px;
+    text-align: center;
+    padding-top: 10px;
+}
+.gifts-div{
+    width: 74px;
+    text-align: center;
+    padding-top: 10px;
+}
+.beauty-div{
+    width: 158px;
+    text-align: center;
+    padding-top: 10px;
+}
+.sale-div{
+    width: 126px;
+    text-align: center;
+    padding-top: 10px;
+}
