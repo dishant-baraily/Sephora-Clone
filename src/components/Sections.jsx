@@ -9,6 +9,7 @@ export const Sections = () => {
                 <div className='new-div'>
                     <a className='atag' href="https://www.sephora.com/beauty/new-beauty-products">New</a>
                 </div>
+                <div className='hide'></div>
                 <div className='brands-div'>
                     <a className='atag' href="https://www.sephora.com/brands-list">Brands</a>
                 </div>
@@ -42,7 +43,9 @@ export const Sections = () => {
                 <div className='sale-div'>
                     <a className='atag' href="https://www.sephora.com/sale">Sale & Offers</a>
                 </div>
+                
             </nav>
+            
         </div>
     </div>
   )
