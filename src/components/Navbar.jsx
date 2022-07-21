@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/NavStyles.css';
 
+
 export const Navbar = () => {
   return (
     <>
@@ -25,14 +26,18 @@ export const Navbar = () => {
                                     </div>
                                 </div>
                             </button>
-                            <button className='comm-btn'>
-                                <div>
-                                    <img className='comm-img' src="https://www.sephora.com/img/ufe/icons/community.svg" alt="Community" />
+                            <span>
+                            <a style={{textDecoration:"none"}} href="https://community.sephora.com/">
+                                <div className='comm-btn'>
+                                    <div>
+                                        <img className='comm-img' src="https://www.sephora.com/img/ufe/icons/community.svg" alt="Community" />
+                                    </div>
+                                    <div className='span-comm'> 
+                                        <span>Community</span>
+                                    </div>
                                 </div>
-                                <div className='span-comm'>
-                                    <span  >Community</span>
-                                </div>
-                            </button>
+                            </a>
+                            </span>
                             <div className='sign-in-border'></div>
                             <button className='sign-btn'>
                                 <div>
@@ -41,7 +46,7 @@ export const Navbar = () => {
                                 <div className='span-sign'>
                                     <span>Sign In</span>
                                 </div>
-                            </button>
+                            </button>  
                         </div>
                         <div className='cart-contain'>
                             <button className='chat-btn'>
