@@ -1,0 +1,34 @@
+.cards-contain{
+    width: 400px;
+    height: 100%;
+    border-radius: 5px;
+}
+.cards-contain:hover{
+    text-decoration: underline;
+}
+.cards-txt{
+    width: 100%;
+    height: 133px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.cards-txt h1{
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: none;
+}
+.cards-txt h2{
+    font-size: smaller;
+    font-weight: 400;
+}
+.cards-txt p{
+    font-size: medium;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.cards-img img{
+    width: 100%;
+    height: 128px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
