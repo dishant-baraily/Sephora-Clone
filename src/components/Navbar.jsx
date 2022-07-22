@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/NavStyles.css';
+import SignIn from './SignIn';
 
 
 export const Navbar = () => {
@@ -46,7 +47,7 @@ export const Navbar = () => {
                                 <div className='span-sign'>
                                     <span>Sign In</span>
                                 </div>
-                            </button>  
+                            </button>   
                         </div>
                         <div className='cart-contain'>
                             <button className='chat-btn'>

@@ -1,7 +1,7 @@
 import { AboveNav } from './components/AboveNav';
 import { Navbar } from './components/Navbar';
 import { Sections } from './components/Sections';
-import logo from './logo.svg';
+import { Body } from './components/Body';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <AboveNav />
       <Navbar />
       <Sections />
+      <Body />
     </div>
   );
 }

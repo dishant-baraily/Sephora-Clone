@@ -1,0 +1,154 @@
+.footer-top{
+    display: flex;
+    width: 1272px;
+    height: 32px;
+}
+.footer-hr{
+    width:1248px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    border-top: 1px solid black;
+}
+.footer-main{
+    display: flex;
+    width: 1272px;
+    height: 376px;
+
+}
+.footer-end{
+    width: 1248px;
+    height: 61px;
+    display: flex;
+}
+.ftop-store{
+    display: flex;
+}
+.ftop-store1{
+    display: flex;
+}
+.ftop-help{
+    display: flex;
+}
+.ftop-store img{
+    width: 24px;
+    height: 24px;
+}
+.ftop-store1 img{
+    width: 24px;
+    height: 24px;
+}
+.footer-top a{
+    width: 17%;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+}
+.footer-top div{
+    width: 17%;   
+}
+.ftop-head{
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: -3px;
+    font-weight: 500;
+}
+.ftop-sub{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: -25px;
+}
+.ftop-sub span{
+    text-decoration: underline;
+}
+.fmain1{
+    width: 223px;
+    height: 376px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.listyle{
+    margin-top: 10px;
+}
+.listyle li{
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 450;
+}
+.listyle li:hover{
+   text-decoration: underline;
+}
+.h2head{
+    font-weight: 600;
+}
+.flaghover:hover{
+    text-decoration: underline;
+}
+.fmainlast{
+    width: 407px;
+    height: 376px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+}
+.email{
+    width: 383px;
+    height: 73px;
+}
+.bigtxt{
+    width: 383px;
+    height: 294px;
+    margin-top: -10px;
+}
+.bigtxt p{
+    font-size: 28px;
+}
+.formemail input{
+    width: 279px;
+    height: 44px;
+    padding-left: 17px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.formemail button{
+    border: 2px solid white;
+    margin-left: 20px;
+    border-radius: 90px;
+    width: 88px;
+    height: 44px;
+    margin-top: 10px;
+}
+.email label{
+    font-weight: 600;
+    font-size: 15px;
+}
+.privacy{
+    width: 928px;
+    height: 61px;
+}
+.alast a{
+    width: 91px;
+    font-size: 11px;
+    height: 31px;
+    padding: 8px;
+}
+.alast1{
+    font-size: 11px;
+    padding-left: 8px;
+}
+.socials{
+    width: 336px;
+    height: 32px;
+    display: flex;
+}
+.socialsimg{
+    width: 32px;
+    height: 32px;
+}
+.socials a{
+    width: 48px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+

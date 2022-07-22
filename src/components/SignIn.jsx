@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/NavStyles.css';
-import { Button } from '@chakra-ui/react'
+import { Box, Button } from '@chakra-ui/react'
 import { Input } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 import {
     FormControl,
     FormLabel
@@ -24,8 +25,13 @@ export default function SignIn() {
   
     return (
       <>
-        <Button onClick={onOpen}>
-            ok
+        <Button className='sign-btn' onClick={onOpen}>
+            <Box>
+              <Image className='sign-img' src="https://www.sephora.com/img/ufe/icons/me32.svg" />
+            </Box>
+            <Box className='span-sign'>
+              Sign In
+            </Box>
         </Button>
         <Modal
           initialFocusRef={initialRef}

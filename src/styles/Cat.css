@@ -1,0 +1,63 @@
+.cat-div{
+    width: 1248px;
+    height: 129px;
+    margin-top: 40px;
+    display: flex;
+}
+.cat-txt-div{
+    width: 266px;
+    height: 129px;
+}
+.cat-btn-div{
+    width: 936px;
+    height: 129px;
+    display: flex;
+    gap: 10px;  
+    margin-left: 20px;
+}
+.popup:hover{
+    top: -5px;
+}
+.popup{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.cat-main{
+    width: 110px;
+    height: 129px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cat-innerimg img{
+    width: 53px;
+    height: 53px;
+}
+.cat-innertxt{
+    font-size: 14px;
+    width: 100%;
+    font-weight: 450;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50%;
+}
+.cat-innertxt h2{
+    margin-top: -5px;
+}
+.cat-innertxt h3{
+    margin-top: -5px;
+}
+
+.cat-innerimg{
+    width: 53px;
+    height: 50%;
+    margin-left: 50px;
+}
+.cat-txt-div h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cat-txt-div p{
+    font-size: 13px;
+    font-weight: 400;
+}
