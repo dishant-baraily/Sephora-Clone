@@ -1,0 +1,72 @@
+.item-div{
+    border-radius: 3px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.item-title{
+    width: 1248px;
+    height: 50px;
+}
+.item-img-div img{
+    width: 160px;
+    height: 160px;
+}
+.item-img-div {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.item-title h1{
+    font-size: 20px;
+    width: 1164px;
+    font-weight: 700;
+}
+.item-title a{
+    padding: 8px;
+    width: 87px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(19, 107, 234);
+}
+.item-title a:hover{
+    text-decoration: underline;
+}
+.carousel-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+}
+.item-txt {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.item-txt h1{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.item-txt p{
+    font-size: 14px;
+}
+
+.item-txt h2{
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.popup:hover{
+    top: -5px;
+}
+.popup1:hover{
+    top: -5px;
+}
+.popup{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.item-marg{
+    margin-top: 50px;
+}

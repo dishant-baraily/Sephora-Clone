@@ -1,67 +1,83 @@
 import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import '../styles/SliderImg.css';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import { Sliderdata } from '../SliderData'
 
 export const SliderImg = () => {
-    const settings = {
-        dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-      };
   return (
     <div>
-        <Slider {...settings}>
+        <Carousel
+        additionalTransfrom={0}
+        arrows
+        autoPlaySpeed={3000}
+        centerMode={false}
+        className="carousel-div-big"
+        containerClass="container"
+        dotListClass=""
+        draggable
+        focusOnSelect={false}
+        infinite={false}
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        pauseOnHover
+        renderArrowsWhenDisabled={false}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
+        responsive={{
+            desktop: {
+            breakpoint: {
+                max: 3000,
+                min: 1024
+            },
+            items: 2.5,
+            partialVisibilityGutter: 40
+            },
+            mobile: {
+            breakpoint: {
+                max: 464,
+                min: 0
+            },
+            items: 1,
+            partialVisibilityGutter: 30
+            },
+            tablet: {
+            breakpoint: {
+                max: 1024,
+                min: 464
+            },
+            items: 2,
+            partialVisibilityGutter: 30
+            }
+        }}
+        rewind={false}
+        rewindWithAnimation={false}
+        rtl={false}
+        shouldResetAutoplay
+        showDots={false}
+        sliderClass=""
+        slidesToSlide={3}
+        swipeable
+        >
             {Sliderdata.map((item) => (
-                <>
-                    <span>
-                        <a href={item.p2a}>
-                            <div className='img-div'>
-                                <div className='img-css'>
-                                    <img src={item.url} alt="" />
-                                </div>
-                                <div className='txt-div'>
-                                    <h3>{item.head}</h3>
-                                    <p>{item.p1}</p>
-                                    <h2>{item.p2}</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </span>
-                </>
+                <span>
+                <a href={item.p2a}>
+                    <div style={{backgroundColor:`${item.bg}`}} className='img-div'>
+                        <div className='img-css'>
+                            <img src={item.url} alt="" />
+                        </div>
+                        <div style={{color:`${item.color}`}} className='txt-div'>
+                            <h3>{item.head}</h3>
+                            <p>{item.p1}</p>
+                            <h2>{item.p2}</h2>
+                        </div>
+                    </div>
+                </a>
+                </span>
             ))}
-        </Slider>
+        </Carousel>
+        
     </div>
   )
 }
