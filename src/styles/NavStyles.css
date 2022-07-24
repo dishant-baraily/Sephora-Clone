@@ -78,9 +78,9 @@
 }
 .chat-btn{
     padding-top: 15px;
-    border: 1px solid black;
     width: 48px;   
     background-color: white;
+    padding-bottom: 10px;
 }
 .store-img{
    width: 24px;
