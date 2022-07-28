@@ -1,4 +1,4 @@
 # Sephora-Clone
 
 
-DEMO: https://grandiose-riddle-5684.vercel.app/
+DEMO: https://sephora-clone-psi.vercel.app/
